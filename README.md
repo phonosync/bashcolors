@@ -5,6 +5,7 @@ Prompt and ls-colors customisation for bash in the wsl terminal
 dircolors --print-database > ~/.dircolors
 ```
 Then edit `~/.dircolors`
+
 list of all the keys:
 http://www.bigsoft.co.uk/blog/2008/04/11/configuring-ls_colors
 

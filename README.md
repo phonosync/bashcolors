@@ -18,9 +18,5 @@ test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors
 ```
 ## prompt
 In the `.bashrc`-file
-
-with color:
-`PS1='\[\033[34m\]\w\[\033[00m\]\$ '`
-
-without:
-`PS1='\w\$ '`
+* with color: `PS1='\[\033[34m\]\w\[\033[00m\]\$ '`
+* without: `PS1='\w\$ '`

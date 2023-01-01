@@ -12,7 +12,7 @@ http://www.bigsoft.co.uk/blog/2008/04/11/configuring-ls_colors
 ```bash
 source .bashrc
 ```
-.dircolors is loaded in the line: 
+`.dircolors` is loaded in the line: 
 ```bash
 test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
 ```
